@@ -49,3 +49,14 @@ title("Population health damages caused by \nextreme climatic events in United S
 
 ## Install 
 
+install.packages('devtools')
+
+devtools::install_github('rstudio/shinyapps')
+
+library(shinyapps)
+
+shinyapps::setAccountInfo(name='itahisamr',
+			  token='425A006AB7CCB13BC43B9BFCC875F0BB',
+			  secret='xIGwn2bpvb/sK4uIoEbUdrfWvTaaUiy7OlfOcA9j')
+			  
+			  
